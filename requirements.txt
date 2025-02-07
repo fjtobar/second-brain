@@ -1,0 +1,54 @@
+# Core Scientific Computing
+numpy
+pandas
+scipy
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+# Deep Learning
+tensorflow
+torch
+keras
+
+# Data Processing & Feature Engineering
+scikit-learn
+imbalanced-learn
+category_encoders
+
+# Statistical Modeling & Causal Inference
+statsmodels
+econml
+causalml
+
+# Natural Language Processing (NLP)
+nltk
+spacy
+transformers
+
+# Hyperparameter Optimization
+optuna
+hyperopt
+
+# Experimentation & Causal Inference
+dowhy
+linearmodels
+
+# Data Handling & Storage
+fastparquet
+
+# Notebook & Interactive Computing
+jupyter
+notebook
+ipython
+
+# Miscellaneous Utilities
+tqdm
