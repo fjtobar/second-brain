@@ -3,6 +3,8 @@ import numpy as np
 
 ############# Explanation ##############
 
+# Logistic Regression is a supervised learning model that is primarily used for binary classification problems.
+
 # This is not a regression, is a classification model. The logistic regression model is used to predict the probability of a binary target variable.
 # we use standard logistic function to model the probability of the target variable, also called the sigmoid function.
 
@@ -90,7 +92,7 @@ class LogisticRegression:
             loss = -np.mean(y * np.log(y_predicted + 1e-9) + (1 - y) * np.log(1 - y_predicted + 1e-9))
 
             # print the training loss at each epoch
-            if verbose and epoch % 100 == 0:
+            if verbose and epoch % 300 == 0:
                 print(f'Epoch {epoch}, loss {loss}')
 
     def predict_prob(self, X):
