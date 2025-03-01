@@ -19,12 +19,12 @@ second-brain/
 │── scripts/              # Python scripts
 │── data/                 # Sample datasets
 │
-├── topics/               # Organized knowledge areas
-│   ├── machine-learning/    # ML concepts, models, best practices
-│   ├── causal-inference/    # Causal inference methods & applications
-│   ├── experimentation/     # A/B testing, experimental design
-│   ├── statistics/          # Probability, hypothesis testing, Bayesian stats
-│
+├── topics/                         # Knowledge areas
+│   ├── machine-learning/           # ML concepts, models, best practices
+│   ├── causal-inference/           # Causal inference methods & applications
+│   ├── statistics/                 # Probability, hypothesis testing, Bayesian stats
+│   ├── (soon) experimentation/     # A/B testing, experimental design
+│   
 ├── resources/            # Useful readings, papers, and links
 │   ├── papers.md
 │   ├── online-courses.md
