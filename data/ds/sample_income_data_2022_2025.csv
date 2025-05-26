@@ -1,0 +1,81 @@
+country,city,income,year
+USA,New York,85000,2022
+USA,Los Angeles,72000,2022
+USA,Chicago,66000,2022
+USA,San Francisco,115000,2022
+Canada,Toronto,67000,2022
+Canada,Vancouver,63000,2022
+Canada,Montreal,58000,2022
+Canada,Calgary,77000,2022
+Mexico,Mexico City,38000,2022
+Mexico,Guadalajara,33000,2022
+Mexico,Monterrey,40000,2022
+Mexico,Puebla,29000,2022
+Germany,Berlin,72000,2022
+Germany,Munich,79000,2022
+Germany,Frankfurt,75000,2022
+Germany,Hamburg,70000,2022
+Japan,Tokyo,88000,2022
+Japan,Osaka,72000,2022
+Japan,Nagoya,69000,2022
+Japan,Fukuoka,66000,2022
+USA,New York,88000,2023
+USA,Los Angeles,73500,2023
+USA,Chicago,67000,2023
+USA,San Francisco,118000,2023
+Canada,Toronto,68000,2023
+Canada,Vancouver,64000,2023
+Canada,Montreal,59000,2023
+Canada,Calgary,78000,2023
+Mexico,Mexico City,39000,2023
+Mexico,Guadalajara,34000,2023
+Mexico,Monterrey,41000,2023
+Mexico,Puebla,29500,2023
+Germany,Berlin,73500,2023
+Germany,Munich,80000,2023
+Germany,Frankfurt,76000,2023
+Germany,Hamburg,71000,2023
+Japan,Tokyo,89000,2023
+Japan,Osaka,73000,2023
+Japan,Nagoya,69500,2023
+Japan,Fukuoka,67000,2023
+USA,New York,90000,2024
+USA,Los Angeles,75000,2024
+USA,Chicago,68000,2024
+USA,San Francisco,120000,2024
+Canada,Toronto,70000,2024
+Canada,Vancouver,65000,2024
+Canada,Montreal,60000,2024
+Canada,Calgary,80000,2024
+Mexico,Mexico City,40000,2024
+Mexico,Guadalajara,35000,2024
+Mexico,Monterrey,42000,2024
+Mexico,Puebla,30000,2024
+Germany,Berlin,75000,2024
+Germany,Munich,82000,2024
+Germany,Frankfurt,78000,2024
+Germany,Hamburg,72000,2024
+Japan,Tokyo,90000,2024
+Japan,Osaka,75000,2024
+Japan,Nagoya,70000,2024
+Japan,Fukuoka,68000,2024
+USA,New York,93000,2025
+USA,Los Angeles,77000,2025
+USA,Chicago,70000,2025
+USA,San Francisco,125000,2025
+Canada,Toronto,72000,2025
+Canada,Vancouver,66000,2025
+Canada,Montreal,61000,2025
+Canada,Calgary,82000,2025
+Mexico,Mexico City,41000,2025
+Mexico,Guadalajara,35500,2025
+Mexico,Monterrey,43000,2025
+Mexico,Puebla,31000,2025
+Germany,Berlin,76000,2025
+Germany,Munich,83000,2025
+Germany,Frankfurt,79000,2025
+Germany,Hamburg,73000,2025
+Japan,Tokyo,92000,2025
+Japan,Osaka,77000,2025
+Japan,Nagoya,71000,2025
+Japan,Fukuoka,69000,2025

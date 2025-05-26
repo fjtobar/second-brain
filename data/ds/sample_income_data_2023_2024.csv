@@ -1,0 +1,41 @@
+country,city,income,year
+USA,New York,90000,2024
+USA,Los Angeles,75000,2024
+USA,Chicago,68000,2024
+USA,San Francisco,120000,2024
+Canada,Toronto,70000,2024
+Canada,Vancouver,65000,2024
+Canada,Montreal,60000,2024
+Canada,Calgary,80000,2024
+Mexico,Mexico City,40000,2024
+Mexico,Guadalajara,35000,2024
+Mexico,Monterrey,42000,2024
+Mexico,Puebla,30000,2024
+Germany,Berlin,75000,2024
+Germany,Munich,82000,2024
+Germany,Frankfurt,78000,2024
+Germany,Hamburg,72000,2024
+Japan,Tokyo,90000,2024
+Japan,Osaka,75000,2024
+Japan,Nagoya,70000,2024
+Japan,Fukuoka,68000,2024
+USA,New York,93000,2025
+USA,Los Angeles,77000,2025
+USA,Chicago,70000,2025
+USA,San Francisco,125000,2025
+Canada,Toronto,72000,2025
+Canada,Vancouver,66000,2025
+Canada,Montreal,61000,2025
+Canada,Calgary,82000,2025
+Mexico,Mexico City,41000,2025
+Mexico,Guadalajara,35500,2025
+Mexico,Monterrey,43000,2025
+Mexico,Puebla,31000,2025
+Germany,Berlin,76000,2025
+Germany,Munich,83000,2025
+Germany,Frankfurt,79000,2025
+Germany,Hamburg,73000,2025
+Japan,Tokyo,92000,2025
+Japan,Osaka,77000,2025
+Japan,Nagoya,71000,2025
+Japan,Fukuoka,69000,2025

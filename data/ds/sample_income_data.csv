@@ -1,0 +1,21 @@
+country,city,income
+USA,New York,90000
+USA,Los Angeles,75000
+USA,Chicago,68000
+USA,San Francisco,120000
+Canada,Toronto,70000
+Canada,Vancouver,65000
+Canada,Montreal,60000
+Canada,Calgary,80000
+Mexico,Mexico City,40000
+Mexico,Guadalajara,35000
+Mexico,Monterrey,42000
+Mexico,Puebla,30000
+Germany,Berlin,75000
+Germany,Munich,82000
+Germany,Frankfurt,78000
+Germany,Hamburg,72000
+Japan,Tokyo,90000
+Japan,Osaka,75000
+Japan,Nagoya,70000
+Japan,Fukuoka,68000
