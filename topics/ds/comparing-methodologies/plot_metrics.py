@@ -11,28 +11,40 @@ def plot_metric_comparison(
     x_label: str = None,
     dot_size: int = 50,
     figsize: tuple = (12, 6),
-    rotate_x: bool = True
+    rotate_x: bool = True,
+    show_lines: bool = True,
+    country_col: str = "country",
+    year_col: str = "year"
 ):
     """
-    Plots a scatter plot to compare metrics across categories.
+    Plots a scatter plot to compare metrics across categories, optionally connecting same-country points across years.
 
     Parameters:
-    - df (pd.DataFrame): DataFrame containing the data to plot.
-    - x (str): Column name to plot on the x-axis (typically a category like country or segment).
-    - y (str): Column name to plot on the y-axis (the metric being compared).
-    - hue (str): Column used to color-code the points (e.g., method or metric type).
-    - title (str): Plot title.
-    - y_label (str): Y-axis label. Defaults to y column name.
-    - x_label (str): X-axis label. Defaults to x column name.
-    - dot_size (int): Size of the dots.
-    - figsize (tuple): Width and height of the figure.
-    - rotate_x (bool): Whether to rotate x-axis labels for readability.
-
-    Returns:
-    - None
+    - show_lines (bool): Whether to draw lines between years for the same country & method.
+    - country_col (str): Column name representing the country (for linking points).
+    - year_col (str): Column name representing the year (for linking points).
     """
     plt.figure(figsize=figsize)
-    sns.scatterplot(data=df, x=x, y=y, hue=hue, marker='o', s=dot_size)
+    sns.set(style="whitegrid", palette="colorblind")
+
+    ax = sns.scatterplot(data=df, x=x, y=y, hue=hue, marker='o', s=dot_size)
+
+    # Optionally connect dots for the same country & method across years
+    if show_lines:
+        for method in df[hue].unique():
+            method_df = df[df[hue] == method]
+            for country in method_df[country_col].unique():
+                subset = method_df[method_df[country_col] == country].sort_values(by=year_col)
+                if len(subset) >= 2:
+                    ax.plot(
+                        subset[x],
+                        subset[y],
+                        color='gray',
+                        linestyle='--',
+                        linewidth=0.7,
+                        alpha=0.5,
+                        zorder=1
+                    )
 
     plt.title(title, fontsize=14)
     plt.ylabel(y_label if y_label else y.capitalize())
@@ -100,7 +112,8 @@ def plot_metric_trends_by_country(
             linewidth=linewidth,
             markersize=dot_size**0.5,
             ax=ax,
-            legend=False
+            legend=False,
+            linestyle='--'
         )
         ax.set_title(country, fontsize=12, pad=6)
         ax.set_ylabel(y_label)
